@@ -51,14 +51,14 @@ const html_css = elementFromHtml(`
   rel="stylesheet"
   type="text/css"
   media="screen"
-  href="https://cdn.jsdelivr.net/gh/borisvch/repo001@main/video-popup.css"
+  href="https://cdn.jsdelivr.net/gh/borisvch/repo001@latest/video-popup.css"
   />
 `);
 
 const html_widget_icon = elementFromHtml(`
 <img
 id="video-widget-icon"
-src="https://s3.amazonaws.com/appforest_uf/f1676674408488x143910637275504350/vouchtube-round-logo.svg"
+src="https://cdn.jsdelivr.net/gh/borisvch/repo001@latest/vouchtube-round-logo.svg"
 alt="vouchtube video widget icon"
 class="widget-icon-${window.VOUCHTUBE_CONFIG.position}"
 onClick="openVideoPopup()"
