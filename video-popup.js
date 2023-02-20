@@ -1,3 +1,5 @@
+// 2023-02-20
+
 let is_open = false;
 
 function closeVideoPopup() {
@@ -50,7 +52,7 @@ const html_css = elementFromHtml(`
   rel="stylesheet"
   type="text/css"
   media="screen"
-  href="https://s3.amazonaws.com/appforest_uf/f1676929227562x969640062837375600/video-popup.css"
+  href="https://cdn.jsdelivr.net/gh/borisvch/repo001@latest/video-popup.css"
   />
 `);
 
