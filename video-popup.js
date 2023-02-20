@@ -19,10 +19,10 @@ function openVideoPopup() {
   }
 }
 
-// Select the head element of the page
+// Select the head element of the page:
 const page_head = document.head;
 
-// Select the body element of the page
+// Select the body element of the page:
 const body_html = document.body;
 
 // This function creates HTML from template HTML passed in to it
