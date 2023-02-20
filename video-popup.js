@@ -51,20 +51,9 @@ const html_css = elementFromHtml(`
   rel="stylesheet"
   type="text/css"
   media="screen"
-  href="https://cdn.jsdelivr.net/gh/borisvch/repo001@latest/video-popup.css"
+  href="https://cdn.jsdelivr.net/gh/borisvch/repo001@main/video-popup.css"
   />
 `);
-
-// https://s3.amazonaws.com/appforest_uf/f1676929227562x969640062837375600/video-popup.css
-
-// const html_css = elementFromHtml(`
-//   <link
-//   rel="stylesheet"
-//   type="text/css"
-//   media="screen"
-//   href="video-popup.css"
-//   />
-// `);
 
 const html_widget_icon = elementFromHtml(`
 <img
