@@ -1,4 +1,4 @@
-Paste before </body>:
+Paste before </body> :
 
    <script>
       window.VOUCHTUBE_CONFIG = {
