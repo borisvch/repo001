@@ -24,7 +24,7 @@ const page_head = document.head;
 // Select the body element of the page:
 const body_html = document.body;
 
-// This function creates HTML from template HTML passed in to it
+// This function creates HTML from template HTML passed in to it:
 function elementFromHtml(html) {
   const template = document.createElement("template");
   html = html.trim(); // Never return a text node of whitespace as the result
