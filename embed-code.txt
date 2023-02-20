@@ -1,0 +1,12 @@
+Paste before </body>:
+
+   <script>
+      window.VOUCHTUBE_CONFIG = {
+        cid: "cSF5M1672346924",
+        themecolor: "1F78B8",
+        textcolor: "3B3B3B",
+        position: "right"
+      };
+    </script>
+
+  <script src="https://s3.amazonaws.com/appforest_uf/f1676675518704x921571239521338200/video-popup-min.js"></script>

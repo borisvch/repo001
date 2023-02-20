@@ -1,0 +1,171 @@
+/* CSS overrides start*/
+body {
+  margin-top: 0px;
+  padding: 1vw;
+  background-color: #ffffff;
+  font-family: Inter;
+}
+
+h1 {
+  margin-top: 0;
+}
+/* CSS overrides end */
+
+.widget-icon-right {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  border-radius: 50%;
+  /* box-shadow: 0 0 5px #acacac; */
+  box-shadow: 0 0 5px #bbbbbb;
+  animation-iteration-count: 1;
+  animation: widget-slide-in-right 0.5s ease-in-out;
+}
+
+.widget-icon-right:hover {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  transition: 200ms ease-in-out;
+}
+
+/* Left position widget icon */
+.widget-icon-left {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #dddddd;
+  animation-iteration-count: 1;
+  animation: widget-slide-in-right 0.5s ease-in-out;
+}
+
+.widget-icon-left:hover {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  transition: 200ms ease-in-out;
+}
+
+/* This is the container for the video popup containing the iframe */
+.flex-video-popup-container-right {
+  display: flex;
+  /* display: none; */
+  flex-direction: column;
+  width: 410px;
+  min-width: 400px;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  /* border-style: solid;
+  border-width: 1px;
+  border-radius: 5px; */
+  /* border-color: #dadada; */
+  /* background-color: whitesmoke; */
+  z-index: 99;
+  animation: widget-slide-in-bottom 300ms;
+}
+
+.flex-video-popup-container-left {
+  display: flex;
+  /* display: none; */
+  flex-direction: column;
+  width: 410px;
+  /* min-width: 400px; */
+  margin-right: 1vw;
+  margin-left: 1vw;
+  /* padding-bottom: 10px; */
+  position: fixed;
+  bottom: 80px;
+  left: 10px;
+  /* border-style: solid;
+  border-width: 1px;
+  border-radius: 5px; */
+  /* border-color: #dadada; */
+  /* background-color: whitesmoke; */
+  z-index: 99;
+  animation: widget-slide-in-bottom 300ms;
+}
+
+.popup-controls-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.material-symbols-outlined.close-icon {
+  cursor: pointer;
+  align-self: right;
+  justify-self: right;
+  text-shadow: 1px 1px 3px #484848;
+}
+
+.material-symbols-outlined.close-icon:hover {
+  transition: 0.25s ease-in-out;
+  transform: rotate(90deg);
+}
+
+.popup-title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.popup-title {
+  /* color: #1f78b8; */
+  font-weight: extra-bold;
+  font-size: 16px;
+  padding: 0px;
+  text-shadow: 1px 1px 1px #cccccc;
+}
+
+.popup-content {
+  padding-bottom: 10px;
+}
+
+.element-item {
+  padding: 5px;
+  border: 2px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-color: aqua;
+  background-color: rgb(201, 201, 201);
+}
+
+@keyframes widget-slide-in-bottom {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes widget-slide-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes widget-icon-hover {
+  from {
+    width: 50px;
+  }
+  to {
+    width: 80px;
+  }
+}
