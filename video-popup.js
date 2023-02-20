@@ -5,7 +5,6 @@ let is_open = false;
 function closeVideoPopup() {
   document.getElementById("video-widget").style.display = "none";
   is_open = false;
-  // document.getElementById("video-widget-icon").style.display = "block";
 }
 
 function openVideoPopup() {
