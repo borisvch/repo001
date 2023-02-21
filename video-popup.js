@@ -52,7 +52,7 @@ const html_css = elementFromHtml(`
   rel="stylesheet"
   type="text/css"
   media="screen"
-  href="https://vouchtube-video-popup-widget.vercel.app/video-popup.css"
+  href="https://vouchtube-video-popup-widget.vercel.app/vouchtube-video-popup.min.css"
   />
 `);
 
