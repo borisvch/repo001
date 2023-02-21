@@ -1,8 +1,7 @@
 #!/bin/sh
-ls
+echo =================================================================
 echo Enter Commit Comment:
 read var_comment
-
 echo =================================================================
 echo Uglifying JS and CSS files...
 uglifyjs video-popup.js > vouchtube-video-popup.min.js
