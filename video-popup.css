@@ -60,7 +60,7 @@ h1 {
   display: flex;
   /* display: none; */
   flex-direction: column;
-  width: 410px;
+  max-width: 410px;
   min-width: 380px;
   margin-right: 1vw;
   margin-left: 1vw;
@@ -82,7 +82,7 @@ h1 {
   display: flex;
   /* display: none; */
   flex-direction: column;
-  width: 410px;
+  max-width: 410px;
   min-width: 380px;
   margin-right: 1vw;
   margin-left: 1vw;
